@@ -19,7 +19,7 @@ Web service example
      func main() {
      	http.HandleFunc("/",
      		func(w http.ResponseWriter, r *http.Request) {
-     			fmt.Fprintf(w, token.GetToken(6))
+     			fmt.Fprint(w, token.GetToken(6))
      		})
      	http.ListenAndServe(":8080", nil)
      }
