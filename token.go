@@ -1,5 +1,3 @@
-package token
-
 // token generator package
 // Copyright (C) 2016  geosoft1  geosoft1@gmail.com
 //
@@ -15,6 +13,9 @@ package token
 //
 // You should have received a copy of the GNU General Public License
 // along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+// Package token generate random strings of characters of a given size.
+package token
 
 import (
 	"crypto/md5"
