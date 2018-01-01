@@ -8,5 +8,5 @@ import (
 
 func ExampleGetToken() {
 	fmt.Println(token.GetToken(6))
-	//Output:d9c544
+	//Output:
 }
